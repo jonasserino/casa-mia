@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-		"dev": "NODE_ENV=development nodemon index.js",
-		"start": "node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,6 +16,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "mongodb": "^6.6.0",
     "morgan": "^1.10.0"
   }
 }
